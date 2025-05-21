@@ -1,6 +1,6 @@
 const express = require('express');
-const bodyParser = require('body-parser')
-
+const bodyParser = require('body-parser');
+const validation = require('./util/user-validation');
 const mongodb = require('./data/database');
 const app = express();
 
